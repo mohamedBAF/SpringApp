@@ -1,16 +1,9 @@
 package tn.esprit.spring;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import tn.esprit.spring.service.IProduitService;
 
 
 
@@ -23,37 +16,37 @@ public class SpringBootDataJpaMvcJspApplicationTests {
 
 	@Test
 	public void testHello() throws ParseException {
-//		up.hello("Mourad"); 
+		//		up.hello("Mourad"); 
 	}
-	
-	
-	
-/*	@Test
+
+
+
+	/*	@Test
 	public void testAddUser() throws ParseException {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 		Date d = dateFormat.parse("2015-03-23");
 		User u = new User("Mayssa1", "Mayssa1", d, Role.STUDENT); 
 		us.addUser(u); 
 	}*/
-//	
-//	@Test
-//	public void testModifyUser() throws ParseException   {
-//		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-//		Date d = dateFormat.parse("2015-03-23");
-//		User u = new User(2L, "Mayssa", "Mayssa", d, Role.STUDENT); 
-//		us.updateUser(u); 
-//}
-//
-//	@Test
-//	public void testRetrieveAllUsers() {
-//		us.retrieveAllUsers(); 
-//	}
-//
-//	@Test
-//	public void testRetrieveUser() {
-//		us.retrieveUser("4"); 
-//	}
-	
+	//	
+	//	@Test
+	//	public void testModifyUser() throws ParseException   {
+	//		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+	//		Date d = dateFormat.parse("2015-03-23");
+	//		User u = new User(2L, "Mayssa", "Mayssa", d, Role.STUDENT); 
+	//		us.updateUser(u); 
+	//}
+	//
+	//	@Test
+	//	public void testRetrieveAllUsers() {
+	//		us.retrieveAllUsers(); 
+	//	}
+	//
+	//	@Test
+	//	public void testRetrieveUser() {
+	//		us.retrieveUser("4"); 
+	//	}
+
 	// LocalDate représente une date au format ISO (aaaa-MM-jj) sans heure .
 	// LocalDate date = LocalDate.parse("2018-02-13"); 
 
