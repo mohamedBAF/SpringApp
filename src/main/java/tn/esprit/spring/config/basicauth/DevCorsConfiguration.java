@@ -1,4 +1,4 @@
-package tn.esprit.spring.config;
+package tn.esprit.spring.config.basicauth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
