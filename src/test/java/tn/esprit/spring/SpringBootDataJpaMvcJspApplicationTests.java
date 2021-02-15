@@ -16,7 +16,7 @@ public class SpringBootDataJpaMvcJspApplicationTests {
 
 	@Test
 	public void testHello() throws ParseException {
-		//		up.hello("Mourad"); 
+		//		dup.hello("Mourad"); 
 	}
 
 
