@@ -16,12 +16,10 @@ import tn.esprit.spring.service.IProduitService;
 
 
 
-@RunWith(SpringRunner.class)
+
 @SpringBootTest
 public class SpringBootDataJpaMvcJspApplicationTests {
 
-	@Autowired 
-	IProduitService up; 
 
 	@Test
 	public void testHello() throws ParseException {
