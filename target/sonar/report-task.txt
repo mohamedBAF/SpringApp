@@ -1,6 +1,0 @@
-projectKey=tn.esprit.spring:spring-boot-data-jpa-mvc-jsp
-serverUrl=http://localhost:9000
-serverVersion=6.7.7.38951
-dashboardUrl=http://localhost:9000/dashboard/index/tn.esprit.spring:spring-boot-data-jpa-mvc-jsp
-ceTaskId=AXel5RS99IyF5kLFTc4-
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXel5RS99IyF5kLFTc4-

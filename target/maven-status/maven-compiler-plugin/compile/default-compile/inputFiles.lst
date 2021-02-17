@@ -3,9 +3,9 @@ C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\IProduitService.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\entity\Categorie.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\ICategorieService.java
-C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\config\DevCorsConfiguration.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\IFournisseurService.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\repository\ProduitRepository.java
+C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\config\basicauth\DevCorsConfiguration.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\ProduitService.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\repository\CategorieRepository.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\CategorieService.java
@@ -13,5 +13,6 @@ C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\SpringBootDataJpaMvcJspApplication.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\control\FournisseurRestController.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\service\FournisseurService.java
+C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\config\basicauth\SpringSecurityConfigurationBasicAuth.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\entity\Produit.java
 C:\Users\HP\Desktop\spring\ProjetSpringBootVersionClean\src\main\java\tn\esprit\spring\repository\FournisseurRepository.java
