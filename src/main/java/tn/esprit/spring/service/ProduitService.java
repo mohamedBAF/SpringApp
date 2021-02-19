@@ -29,7 +29,7 @@ public class ProduitService implements IProduitService {
 		
 		return produits;
 	}
-//ajoutttt
+//ajoutt
 	@Override
 	public Produit addProduit(Produit e) {
 		e.setDateInsertion(new Timestamp(System.currentTimeMillis()));
