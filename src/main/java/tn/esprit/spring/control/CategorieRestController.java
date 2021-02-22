@@ -52,7 +52,7 @@ public class CategorieRestController {
 			return Categorieservice.retrieveCategorie(CategorieId);
 			}
 			
-			// Ajouter Categorie : http://localhost:8081/SpringMVC/servlet/add-Categorie
+			// Ajouter Categorieee : http://localhost:8081/SpringMVC/servlet/add-Categorie
 			
 			@PostMapping("/add-Categorie")
 			@ResponseBody
