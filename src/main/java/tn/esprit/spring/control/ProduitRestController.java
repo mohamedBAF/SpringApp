@@ -1,6 +1,5 @@
 package tn.esprit.spring.control;
 
-import java.text.ParseException;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,8 +38,9 @@ public class ProduitRestController {
 		// http://localhost:8081/SpringMVC/servlet/modify-produit/{produit-id}
 				@PutMapping("/modify-produit/{produit-id}")
 				@ResponseBody
-				public Produit modifyUser(@PathVariable("produit-id") String produitId, @RequestBody Produit produit) {
-				Produit p=	produitservice.retrieveProduit(produitId);
+				public Produit modifyProduit(@PathVariable("produit-id") String produitId, @RequestBody Produit produit) {
+					
+			Produit p=	produitservice.retrieveProduit(produitId);
 			
 			p.setNom(produit.getNom());
 			p.setQuantite(produit.getQuantite());
