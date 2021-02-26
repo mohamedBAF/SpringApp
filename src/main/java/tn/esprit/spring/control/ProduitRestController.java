@@ -23,7 +23,7 @@ public class ProduitRestController {
 	@Autowired
 	IProduitService produitservice;
 	
-	// http://localhost:8081/SpringMVC/servlet/retrieve-all-produit
+	// http://localhost:8081/SpringMVC/servlet/retrieve-all-produittt
 		@GetMapping("/retrieve-all-produit")
 		@ResponseBody
 		public List<Produit> getProduit() {
