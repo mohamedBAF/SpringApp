@@ -28,7 +28,7 @@ public class ProduitRestController {
 		@ResponseBody
 		public List<Produit> getProduit() {
 		return produitservice.retrieveAllProduits();
-		
+		/
 		
 	}
 		
