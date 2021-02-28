@@ -35,7 +35,7 @@ public class ProduitRestController {
 		
 		
 		
-		// http://localhost:8081/SpringMVC/servlet/modify-produit/{produit-id}   l
+		// http://localhost:8081/SpringMVC/servlet/modify-produit/{produit-id}   ll
 				@PutMapping("/modify-produit/{produit-id}")
 				@ResponseBody
 				public Produit modifyProduit(@PathVariable("produit-id") String produitId, @RequestBody Produit produit) {
