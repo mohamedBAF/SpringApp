@@ -28,14 +28,14 @@ public class ProduitRestController {
 		@ResponseBody
 		public List<Produit> getProduit() {
 		return produitservice.retrieveAllProduits();
-		/
+		
 		
 	}
 		
 		
 		
 		
-		// http://localhost:8081/SpringMVC/servlet/modify-produit/{produit-id}
+		// http://localhost:8081/SpringMVC/servlet/modify-produit/{produit-id}   l
 				@PutMapping("/modify-produit/{produit-id}")
 				@ResponseBody
 				public Produit modifyProduit(@PathVariable("produit-id") String produitId, @RequestBody Produit produit) {
